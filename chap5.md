@@ -30,7 +30,7 @@ $$c_{shaded} = s c_{highlight} + (1 − s) (t c_{warm} + (1 − t) c_{cool} ). (
 
 
 
-$\mathbf{\textcolor{black}{r}} = 2(\mathbf{\textcolor{black}{n}}\cdot\mathbf{\textcolor{black}{l}})\mathbf{\textcolor{black}{n}}-\mathbf{\textcolor{black}{l}}$这一行代码计算了反射光线向量，将光线l关于法线n进行反射。虽然不像前两个操作那样常见，但大多数着色语言也都内置了反射函数。
+$$\mathbf{\textcolor{black}{r}} = 2(\mathbf{\textcolor{black}{n}}\cdot\mathbf{\textcolor{black}{l}})\mathbf{\textcolor{black}{n}}-\mathbf{\textcolor{black}{l}}$$这一行代码计算了反射光线向量，将光线l关于法线n进行反射。虽然不像前两个操作那样常见，但大多数着色语言也都内置了反射函数。
 
 通过以不同的方式组合这些操作，结合各种数学表达式和着色参数，可以定义出各种风格化和逼真的着色模型。
 
